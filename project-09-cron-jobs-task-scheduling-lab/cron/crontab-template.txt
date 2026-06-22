@@ -1,0 +1,11 @@
+# Daily Backup
+0 2 * * * /scripts/backup_job.sh
+
+# Hourly Health Check
+0 * * * * /scripts/health_check_job.sh
+
+# Weekly Cleanup
+0 1 * * 0 /scripts/cleanup_job.sh
+
+# Monthly Report
+0 8 1 * * /scripts/scheduled_report_job.sh
