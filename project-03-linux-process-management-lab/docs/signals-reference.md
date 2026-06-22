@@ -1,0 +1,9 @@
+# Linux Signals
+
+SIGTERM = 15
+
+SIGKILL = 9
+
+SIGSTOP = 19
+
+SIGCONT = 18
