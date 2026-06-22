@@ -1,0 +1,5 @@
+git add .
+
+git commit -m "add project 04 disk management storage administration lab"
+
+git push
